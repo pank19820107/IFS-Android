@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/matchoutercontainer"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/teamcontainer"
+            android:orientation="vertical"
+            android:layout_weight="0.33"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/teamOneTxtV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bangladesh"
+                android:textAlignment="center"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/leagueinfocontainer"
+            android:orientation="vertical"
+            android:layout_weight="0.33"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/leagueNameTxtV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bangladesh League Match"
+                android:textAlignment="center"/>
+            <TextView
+                android:id="@+id/versusTxtV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Vs"
+                android:textAlignment="center"/>
+            <TextView
+                android:id="@+id/timeTextV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="00h 00m 00s"
+                android:textAlignment="center"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/teamtwocontainer"
+            android:orientation="vertical"
+            android:layout_weight="0.33"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/teamTwoTxtV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="South Africa"
+                android:textAlignment="center" />
+
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
